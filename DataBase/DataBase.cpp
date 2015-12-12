@@ -2,7 +2,7 @@
 // Name        : DataBase.cpp
 // Author      : Real32
 // Version     :
-// Copyright   : Just say "thank you" to me. Free
+// Copyright   :
 // Description : Data base (hash table method). C++
 //============================================================================
 #include <iostream>
