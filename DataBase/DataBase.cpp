@@ -1,3 +1,10 @@
+//============================================================================
+// Name        : DataBase.cpp
+// Author      : Real32
+// Version     :
+// Copyright   : Just say "thank you" to me. Free
+// Description : Data base (hash table method). C++
+//============================================================================
 #include <iostream>
 #include <fstream>
 #include <memory.h>
@@ -118,7 +125,6 @@ void DataBase::add_ElementToZoo(char *file_name)
     in.clear();
     in.seekg(position, in.beg);
     in.read(fbuffer, sizeof(fbuffer));
-
     if(!strcmp(fbuffer, page->param))
     {
       cout<<"Animal is already in cage"<<endl;
